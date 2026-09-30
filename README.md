@@ -1,7 +1,7 @@
 ![Cyber Legends — Secure systems. Clear evidence. Trusted intelligence.](https://github.com/CyberLegends/CyberLegends/blob/main/assets/cyber-legends-banner.svg?raw=true)
 
 <p align="center"><strong>Cybersecurity · Digital Forensics · AI Solutions · AI Security</strong><br/>Advanced penetration testing and geofencing solutions for modern organizations.</p>
-<p align="center"><a href="https://cyberlegends.org">Explore Cyberlegends.org</a> · <a href="#services--solutions">Services &amp; solutions</a> · <a href="#public-projects--resources">Public resources</a> · <a href="#start-a-conversation">Work with us</a></p>
+<p align="center"><a href="https://cyberlegends.org">Explore Cyberlegends.org</a> · <a href="#services--solutions">Services &amp; solutions</a> · <a href="#red-teaming--ai-project-portfolio">10 project blueprints</a> · <a href="#public-projects--resources">Public resources</a> · <a href="#start-a-conversation">Work with us</a></p>
 
 ---
 
@@ -21,6 +21,27 @@ We work across cybersecurity assessments, digital forensics projects, AI applica
 | **AI solutions & intelligent agents** | Retrieval-augmented generation (RAG), knowledge assistants, workflow automation, API integrations and agent-assisted security operations. | Scoped prototypes, evaluation criteria, integration documentation and human approval controls. |
 | **AI & LLM security** | Prompt-injection testing, sensitive-data exposure reviews, RAG access-control testing, agent tool-permission reviews and model abuse assessments. | Threat models, reproducible evaluation cases, risk findings and guardrail recommendations. |
 | **Geofencing & location-aware security** | Virtual boundary design, consent-based asset and fleet monitoring, entry/exit alerts, geospatial dashboards and location-aware policy integrations. | Geofence rules, event workflows, integration designs and privacy-aware retention controls. |
+
+## Red teaming & AI project portfolio
+
+**10 industry-focused project blueprints** covering enterprise, financial services, SaaS, healthcare, manufacturing and logistics. Each specification includes the business problem, architecture, suggested stack, deliverables, validation criteria and implementation roadmap.
+
+**Status:** Design-stage reference projects; implementations and client deployments are not claimed.
+
+| Project | Focus |
+| :--- | :--- |
+| [CL-RT-01 — RedOps Copilot](https://github.com/CyberLegends/CyberLegends/blob/main/PROJECTS.md#cl-rt-01--redops-copilot) | Enterprise red-team planning with scope checks and human approvals. |
+| [CL-RT-02 — LLM Adversarial Assurance Lab](https://github.com/CyberLegends/CyberLegends/blob/main/PROJECTS.md#cl-rt-02--llm-adversarial-assurance-lab) | Adversarial evaluations for customer-facing AI applications. |
+| [CL-RT-03 — Agent Boundary Guard](https://github.com/CyberLegends/CyberLegends/blob/main/PROJECTS.md#cl-rt-03--agent-boundary-guard) | Permission, approval and tool-boundary testing for AI agents. |
+| [CL-RT-04 — Cloud Attack-Path Studio](https://github.com/CyberLegends/CyberLegends/blob/main/PROJECTS.md#cl-rt-04--cloud-attack-path-studio) | Evidence-backed cloud identity and exposure-path analysis. |
+| [CL-RT-05 — Identity Resilience Range](https://github.com/CyberLegends/CyberLegends/blob/main/PROJECTS.md#cl-rt-05--identity-resilience-range) | Hybrid identity simulations and detection validation in isolated labs. |
+| [CL-RT-06 — Purple Team Evidence Hub](https://github.com/CyberLegends/CyberLegends/blob/main/PROJECTS.md#cl-rt-06--purple-team-evidence-hub) | AI-assisted SOC detection coverage and exercise reporting. |
+| [CL-RT-07 — RAG Trust Boundary Lab](https://github.com/CyberLegends/CyberLegends/blob/main/PROJECTS.md#cl-rt-07--rag-trust-boundary-lab) | Tenant isolation, retrieval integrity and citation testing. |
+| [CL-RT-08 — AI Supply Chain Assurance](https://github.com/CyberLegends/CyberLegends/blob/main/PROJECTS.md#cl-rt-08--ai-supply-chain-assurance) | Model, dependency and build-provenance validation. |
+| [CL-RT-09 — Industrial Cyber Range](https://github.com/CyberLegends/CyberLegends/blob/main/PROJECTS.md#cl-rt-09--industrial-cyber-range) | Manufacturing IT/OT segmentation and response exercises in simulation. |
+| [CL-RT-10 — GeoTrust Adversarial Lab](https://github.com/CyberLegends/CyberLegends/blob/main/PROJECTS.md#cl-rt-10--geotrust-adversarial-lab) | Geofence, telemetry and location-policy resilience testing. |
+
+[Explore all 10 detailed project specifications](https://github.com/CyberLegends/CyberLegends/blob/main/PROJECTS.md)
 
 ## Project focus
 

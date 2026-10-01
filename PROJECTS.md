@@ -1,26 +1,28 @@
 # Cyber Legends — Red Teaming & AI Project Portfolio
 
-**10 industry-focused reference project blueprints**  
+**10 industry-focused project blueprints with runnable lab prototypes**  
 Cybersecurity · Adversary simulation · AI assurance · Industrial security
 
-> **Portfolio status:** Design-stage project specifications. These entries describe proposed solutions, implementation plans and acceptance targets. They are not claims of completed client work, deployed products, existing source-code implementations or measured performance. Stack choices are illustrative and must be validated during discovery.
+> **Portfolio status:** Ten runnable Python lab prototypes are published, each implementing a bounded core of its project blueprint. The broader architectures, deliverables and roadmaps below describe proposed industrial solutions. These entries do not claim completed client work, production deployments or measured industrial performance. Suggested stacks must be validated during discovery.
+
+**Start here:** [Code & setup guide](CODE_GUIDE.md) · [30 offline regression tests](test_projects.py). All ten synthetic CLI demos and fixture exports passed during the initial code release. Optional local-model integration remains untested against a running service.
 
 [Back to Cyber Legends](https://github.com/CyberLegends) · [Service overview](README.md) · [Cyberlegends.org](https://cyberlegends.org)
 
 ## Project directory
 
-| ID | Project | Industry / environment | Main outcome |
-| :--- | :--- | :--- | :--- |
-| CL-RT-01 | [RedOps Copilot](#cl-rt-01--redops-copilot) | Enterprise / security consultancies | Human-approved adversary-simulation planning |
-| CL-RT-02 | [LLM Adversarial Assurance Lab](#cl-rt-02--llm-adversarial-assurance-lab) | Banking / customer-facing AI | Repeatable AI application security evaluations |
-| CL-RT-03 | [Agent Boundary Guard](#cl-rt-03--agent-boundary-guard) | SaaS / enterprise automation | Validation of agent permissions and approval boundaries |
-| CL-RT-04 | [Cloud Attack-Path Studio](#cl-rt-04--cloud-attack-path-studio) | Retail / cloud-native organizations | Evidence-backed identity and exposure paths |
-| CL-RT-05 | [Identity Resilience Range](#cl-rt-05--identity-resilience-range) | Enterprise / hybrid identity | Safe identity attack-path and detection validation |
-| CL-RT-06 | [Purple Team Evidence Hub](#cl-rt-06--purple-team-evidence-hub) | SOC / MSSP | Measurable control coverage and detection improvements |
-| CL-RT-07 | [RAG Trust Boundary Lab](#cl-rt-07--rag-trust-boundary-lab) | Healthcare / legal / knowledge platforms | Retrieval isolation and information-integrity testing |
-| CL-RT-08 | [AI Supply Chain Assurance](#cl-rt-08--ai-supply-chain-assurance) | Software vendors / AI product teams | Model, dependency and build-provenance validation |
-| CL-RT-09 | [Industrial Cyber Range](#cl-rt-09--industrial-cyber-range) | Manufacturing / OT | Simulated IT/OT segmentation and response exercises |
-| CL-RT-10 | [GeoTrust Adversarial Lab](#cl-rt-10--geotrust-adversarial-lab) | Logistics / connected assets | Geofence, telemetry and location-policy resilience |
+| ID | Project | Industry / environment | Main outcome | Code |
+| :--- | :--- | :--- | :--- | :--- |
+| CL-RT-01 | [RedOps Copilot](#cl-rt-01--redops-copilot) | Enterprise / security consultancies | Human-approved adversary-simulation planning | [redops_copilot.py](redops_copilot.py) |
+| CL-RT-02 | [LLM Adversarial Assurance Lab](#cl-rt-02--llm-adversarial-assurance-lab) | Banking / customer-facing AI | Repeatable AI application security evaluations | [llm_assurance_lab.py](llm_assurance_lab.py) |
+| CL-RT-03 | [Agent Boundary Guard](#cl-rt-03--agent-boundary-guard) | SaaS / enterprise automation | Validation of agent permissions and approval boundaries | [agent_boundary_guard.py](agent_boundary_guard.py) |
+| CL-RT-04 | [Cloud Attack-Path Studio](#cl-rt-04--cloud-attack-path-studio) | Retail / cloud-native organizations | Evidence-backed identity and exposure paths | [cloud_attack_path.py](cloud_attack_path.py) |
+| CL-RT-05 | [Identity Resilience Range](#cl-rt-05--identity-resilience-range) | Enterprise / hybrid identity | Safe identity attack-path and detection validation | [identity_resilience.py](identity_resilience.py) |
+| CL-RT-06 | [Purple Team Evidence Hub](#cl-rt-06--purple-team-evidence-hub) | SOC / MSSP | Measurable control coverage and detection improvements | [purple_evidence_hub.py](purple_evidence_hub.py) |
+| CL-RT-07 | [RAG Trust Boundary Lab](#cl-rt-07--rag-trust-boundary-lab) | Healthcare / legal / knowledge platforms | Retrieval isolation and information-integrity testing | [rag_trust_lab.py](rag_trust_lab.py) |
+| CL-RT-08 | [AI Supply Chain Assurance](#cl-rt-08--ai-supply-chain-assurance) | Software vendors / AI product teams | Model, dependency and build-provenance validation | [ai_supply_chain.py](ai_supply_chain.py) |
+| CL-RT-09 | [Industrial Cyber Range](#cl-rt-09--industrial-cyber-range) | Manufacturing / OT | Simulated IT/OT segmentation and response exercises | [industrial_cyber_range.py](industrial_cyber_range.py) |
+| CL-RT-10 | [GeoTrust Adversarial Lab](#cl-rt-10--geotrust-adversarial-lab) | Logistics / connected assets | Geofence, telemetry and location-policy resilience | [geotrust_lab.py](geotrust_lab.py) |
 
 ## Common delivery model
 
@@ -41,7 +43,11 @@ Shared engineering requirements:
 
 **Industry:** Enterprise security teams and authorized security consultancies.  
 **Project type:** AI-assisted red-team planning and exercise management.  
-**Status:** Design blueprint; implementation not published.
+**Status:** Runnable lab prototype published; the broader architecture below remains a design roadmap.
+
+**Code:** [redops_copilot.py](redops_copilot.py) · [Setup & run guide](CODE_GUIDE.md)  
+**Run:** `python redops_copilot.py`  
+**Implemented now:** Scope-bound job decisions with approval expiry and revocation; planning only, without an execution engine.
 
 ### Business problem
 
@@ -74,7 +80,11 @@ Submit in-scope, out-of-scope, expired-approval and revoked-approval fixtures. E
 
 **Industry:** Banking, insurance and customer-facing AI services.  
 **Project type:** Security evaluation of LLM applications.  
-**Status:** Design blueprint; implementation not published.
+**Status:** Runnable lab prototype published; the broader architecture below remains a design roadmap.
+
+**Code:** [llm_assurance_lab.py](llm_assurance_lab.py) · [Setup & run guide](CODE_GUIDE.md)  
+**Run:** `python llm_assurance_lab.py`  
+**Implemented now:** Synthetic canary-leak evaluation with separate security and benign-case metrics; optional live evaluation against an installed local model.
 
 ### Business problem
 
@@ -107,7 +117,11 @@ Include direct and indirect instruction-conflict cases, fabricated sensitive-dat
 
 **Industry:** SaaS platforms and enterprise workflow automation.  
 **Project type:** Red teaming of tool-using AI agents.  
-**Status:** Design blueprint; implementation not published.
+**Status:** Runnable lab prototype published; the broader architecture below remains a design roadmap.
+
+**Code:** [agent_boundary_guard.py](agent_boundary_guard.py) · [Setup & run guide](CODE_GUIDE.md)  
+**Run:** `python agent_boundary_guard.py`  
+**Implemented now:** Mock read/write gateway with tenant isolation, argument checks, one-use approval expiry and request replay checks.
 
 ### Business problem
 
@@ -140,7 +154,11 @@ A malicious document must not grant tool permissions. Cross-tenant requests and 
 
 **Industry:** Retail, e-commerce and cloud-native organizations.  
 **Project type:** AI-assisted cloud exposure and identity-path analysis.  
-**Status:** Design blueprint; implementation not published.
+**Status:** Runnable lab prototype published; the broader architecture below remains a design roadmap.
+
+**Code:** [cloud_attack_path.py](cloud_attack_path.py) · [Setup & run guide](CODE_GUIDE.md)  
+**Run:** `python cloud_attack_path.py`  
+**Implemented now:** Evidence-linked traversal of a supplied cloud graph and before/after remediation analysis by removing edges.
 
 ### Business problem
 
@@ -173,7 +191,11 @@ Use synthetic environments with known risky and safe configurations. Confirm tha
 
 **Industry:** Enterprises with hybrid identity and privileged administration.  
 **Project type:** Identity-focused adversary simulation and purple-team validation.  
-**Status:** Design blueprint; implementation not published.
+**Status:** Runnable lab prototype published; the broader architecture below remains a design roadmap.
+
+**Code:** [identity_resilience.py](identity_resilience.py) · [Setup & run guide](CODE_GUIDE.md)  
+**Run:** `python identity_resilience.py`  
+**Implemented now:** Comparison of synthetic role-transition expectations with observed access decisions and audit events.
 
 ### Business problem
 
@@ -206,7 +228,11 @@ Known unauthorized role transitions must be rejected or explicitly identified as
 
 **Industry:** Security operations centers and managed security service providers.  
 **Project type:** AI-assisted detection validation and exercise reporting.  
-**Status:** Design blueprint; implementation not published.
+**Status:** Runnable lab prototype published; the broader architecture below remains a design roadmap.
+
+**Code:** [purple_evidence_hub.py](purple_evidence_hub.py) · [Setup & run guide](CODE_GUIDE.md)  
+**Run:** `python purple_evidence_hub.py`  
+**Implemented now:** Run/alert correlation, deduplication, detection latency, escalation checks and coverage that excludes incomplete telemetry.
 
 ### Business problem
 
@@ -239,7 +265,11 @@ Use fixtures for detected, missed, delayed and duplicate events. Calculate detec
 
 **Industry:** Healthcare, legal services and enterprise knowledge platforms.  
 **Project type:** Adversarial testing of retrieval-augmented generation applications.  
-**Status:** Design blueprint; implementation not published.
+**Status:** Runnable lab prototype published; the broader architecture below remains a design roadmap.
+
+**Code:** [rag_trust_lab.py](rag_trust_lab.py) · [Setup & run guide](CODE_GUIDE.md)  
+**Run:** `python rag_trust_lab.py`  
+**Implemented now:** Tenant and role filtering before lexical retrieval, with deletion/revocation checks and synthetic canary isolation.
 
 ### Business problem
 
@@ -272,7 +302,11 @@ Restricted canaries must not appear in another tenant's retrieved context or gen
 
 **Industry:** AI product vendors and enterprise software teams.  
 **Project type:** Adversarial validation of model and software delivery controls.  
-**Status:** Design blueprint; implementation not published.
+**Status:** Runnable lab prototype published; the broader architecture below remains a design roadmap.
+
+**Code:** [ai_supply_chain.py](ai_supply_chain.py) · [Setup & run guide](CODE_GUIDE.md)  
+**Run:** `python ai_supply_chain.py`  
+**Implemented now:** SHA-256 integrity, approved-source and provenance-label checks for supplied artifacts; local file access is confined to approved roots.
 
 ### Business problem
 
@@ -305,7 +339,11 @@ Modified artifacts, absent provenance and unapproved sources must be rejected ac
 
 **Industry:** Manufacturing and industrial operational technology.  
 **Project type:** Simulated IT/OT red-team and incident-response exercises.  
-**Status:** Design blueprint; implementation not published.
+**Status:** Runnable lab prototype published; the broader architecture below remains a design roadmap.
+
+**Code:** [industrial_cyber_range.py](industrial_cyber_range.py) · [Setup & run guide](CODE_GUIDE.md)  
+**Run:** `python industrial_cyber_range.py`  
+**Implemented now:** Abstract IT/OT zone reachability and a process-state simulation with latching stop/reset behavior; no connection to real industrial systems.
 
 ### Business problem
 
@@ -338,7 +376,11 @@ Prove there is no route from the range to production OT. Validate segmentation u
 
 **Industry:** Logistics, fleet operations and connected-asset platforms.  
 **Project type:** Geofencing and telemetry integrity red teaming with AI-assisted analysis.  
-**Status:** Design blueprint; implementation not published.
+**Status:** Runnable lab prototype published; the broader architecture below remains a design roadmap.
+
+**Code:** [geotrust_lab.py](geotrust_lab.py) · [Setup & run guide](CODE_GUIDE.md)  
+**Run:** `python geotrust_lab.py`  
+**Implemented now:** Circular geofences with accuracy margins and hysteresis, plus replay, stale/future telemetry and implausible-speed checks.
 
 ### Business problem
 
@@ -382,7 +424,7 @@ A commissioned implementation should deliver the following, scoped to the select
 | AI assurance | Model/configuration record, evaluation dataset, human-review process and measured limitations |
 | Documentation | Deployment guide, operator guide, administrator guide and evidence-backed project report |
 
-**Release readiness:** A blueprint becomes a prototype only when working code and reproducible setup instructions are published. It becomes pilot-ready only after acceptance tests, security review and owner approval. Production readiness requires environment-specific validation, operating ownership and an agreed support model.
+**Release readiness:** The published scripts are runnable lab prototypes with setup instructions and offline regression coverage. They implement only the scope stated under each project’s “Implemented now” entry. Pilot readiness requires the remaining integrations, acceptance tests, security review and owner approval. Production readiness requires environment-specific validation, operating ownership and an agreed support model.
 
 ## Discuss a project
 

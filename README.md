@@ -1,7 +1,7 @@
 ![Cyber Legends — Secure systems. Clear evidence. Trusted intelligence.](https://github.com/CyberLegends/CyberLegends/blob/main/assets/cyber-legends-banner.svg?raw=true)
 
 <p align="center"><strong>Cybersecurity · Digital Forensics · AI Solutions · AI Security</strong><br/>Advanced penetration testing and geofencing solutions for modern organizations.</p>
-<p align="center"><a href="https://cyberlegends.org">Explore Cyberlegends.org</a> · <a href="#services--solutions">Services &amp; solutions</a> · <a href="#red-teaming--ai-project-portfolio">10 project blueprints</a> · <a href="#public-projects--resources">Public resources</a> · <a href="#start-a-conversation">Work with us</a></p>
+<p align="center"><a href="https://cyberlegends.org">Explore Cyberlegends.org</a> · <a href="#services--solutions">Services &amp; solutions</a> · <a href="#red-teaming--ai-project-portfolio">10 projects &amp; code</a> · <a href="#public-projects--resources">Public resources</a> · <a href="#start-a-conversation">Work with us</a></p>
 
 ---
 
@@ -24,24 +24,24 @@ We work across cybersecurity assessments, digital forensics projects, AI applica
 
 ## Red teaming & AI project portfolio
 
-**10 industry-focused project blueprints** covering enterprise, financial services, SaaS, healthcare, manufacturing and logistics. Each specification includes the business problem, architecture, suggested stack, deliverables, validation criteria and implementation roadmap.
+**10 industry-focused projects with runnable lab prototypes** covering enterprise, financial services, SaaS, healthcare, manufacturing and logistics. Each specification includes the business problem, architecture, suggested stack, deliverables, validation criteria and implementation roadmap.
 
-**Status:** Design-stage reference projects; implementations and client deployments are not claimed.
+**Status:** Ten runnable Python lab prototypes with synthetic demos and 30 passing offline regression tests. The broader industrial architectures remain roadmaps; client deployments are not claimed.
 
-| Project | Focus |
-| :--- | :--- |
-| [CL-RT-01 — RedOps Copilot](https://github.com/CyberLegends/CyberLegends/blob/main/PROJECTS.md#cl-rt-01--redops-copilot) | Enterprise red-team planning with scope checks and human approvals. |
-| [CL-RT-02 — LLM Adversarial Assurance Lab](https://github.com/CyberLegends/CyberLegends/blob/main/PROJECTS.md#cl-rt-02--llm-adversarial-assurance-lab) | Adversarial evaluations for customer-facing AI applications. |
-| [CL-RT-03 — Agent Boundary Guard](https://github.com/CyberLegends/CyberLegends/blob/main/PROJECTS.md#cl-rt-03--agent-boundary-guard) | Permission, approval and tool-boundary testing for AI agents. |
-| [CL-RT-04 — Cloud Attack-Path Studio](https://github.com/CyberLegends/CyberLegends/blob/main/PROJECTS.md#cl-rt-04--cloud-attack-path-studio) | Evidence-backed cloud identity and exposure-path analysis. |
-| [CL-RT-05 — Identity Resilience Range](https://github.com/CyberLegends/CyberLegends/blob/main/PROJECTS.md#cl-rt-05--identity-resilience-range) | Hybrid identity simulations and detection validation in isolated labs. |
-| [CL-RT-06 — Purple Team Evidence Hub](https://github.com/CyberLegends/CyberLegends/blob/main/PROJECTS.md#cl-rt-06--purple-team-evidence-hub) | AI-assisted SOC detection coverage and exercise reporting. |
-| [CL-RT-07 — RAG Trust Boundary Lab](https://github.com/CyberLegends/CyberLegends/blob/main/PROJECTS.md#cl-rt-07--rag-trust-boundary-lab) | Tenant isolation, retrieval integrity and citation testing. |
-| [CL-RT-08 — AI Supply Chain Assurance](https://github.com/CyberLegends/CyberLegends/blob/main/PROJECTS.md#cl-rt-08--ai-supply-chain-assurance) | Model, dependency and build-provenance validation. |
-| [CL-RT-09 — Industrial Cyber Range](https://github.com/CyberLegends/CyberLegends/blob/main/PROJECTS.md#cl-rt-09--industrial-cyber-range) | Manufacturing IT/OT segmentation and response exercises in simulation. |
-| [CL-RT-10 — GeoTrust Adversarial Lab](https://github.com/CyberLegends/CyberLegends/blob/main/PROJECTS.md#cl-rt-10--geotrust-adversarial-lab) | Geofence, telemetry and location-policy resilience testing. |
+| Project | Focus | Source |
+| :--- | :--- | :--- |
+| [CL-RT-01 — RedOps Copilot](https://github.com/CyberLegends/CyberLegends/blob/main/PROJECTS.md#cl-rt-01--redops-copilot) | Enterprise red-team planning with scope checks and human approvals. | [Code](https://github.com/CyberLegends/CyberLegends/blob/main/redops_copilot.py) |
+| [CL-RT-02 — LLM Adversarial Assurance Lab](https://github.com/CyberLegends/CyberLegends/blob/main/PROJECTS.md#cl-rt-02--llm-adversarial-assurance-lab) | Adversarial evaluations for customer-facing AI applications. | [Code](https://github.com/CyberLegends/CyberLegends/blob/main/llm_assurance_lab.py) |
+| [CL-RT-03 — Agent Boundary Guard](https://github.com/CyberLegends/CyberLegends/blob/main/PROJECTS.md#cl-rt-03--agent-boundary-guard) | Permission, approval and tool-boundary testing for AI agents. | [Code](https://github.com/CyberLegends/CyberLegends/blob/main/agent_boundary_guard.py) |
+| [CL-RT-04 — Cloud Attack-Path Studio](https://github.com/CyberLegends/CyberLegends/blob/main/PROJECTS.md#cl-rt-04--cloud-attack-path-studio) | Evidence-backed cloud identity and exposure-path analysis. | [Code](https://github.com/CyberLegends/CyberLegends/blob/main/cloud_attack_path.py) |
+| [CL-RT-05 — Identity Resilience Range](https://github.com/CyberLegends/CyberLegends/blob/main/PROJECTS.md#cl-rt-05--identity-resilience-range) | Hybrid identity simulations and detection validation in isolated labs. | [Code](https://github.com/CyberLegends/CyberLegends/blob/main/identity_resilience.py) |
+| [CL-RT-06 — Purple Team Evidence Hub](https://github.com/CyberLegends/CyberLegends/blob/main/PROJECTS.md#cl-rt-06--purple-team-evidence-hub) | AI-assisted SOC detection coverage and exercise reporting. | [Code](https://github.com/CyberLegends/CyberLegends/blob/main/purple_evidence_hub.py) |
+| [CL-RT-07 — RAG Trust Boundary Lab](https://github.com/CyberLegends/CyberLegends/blob/main/PROJECTS.md#cl-rt-07--rag-trust-boundary-lab) | Tenant isolation, retrieval integrity and citation testing. | [Code](https://github.com/CyberLegends/CyberLegends/blob/main/rag_trust_lab.py) |
+| [CL-RT-08 — AI Supply Chain Assurance](https://github.com/CyberLegends/CyberLegends/blob/main/PROJECTS.md#cl-rt-08--ai-supply-chain-assurance) | Model, dependency and build-provenance validation. | [Code](https://github.com/CyberLegends/CyberLegends/blob/main/ai_supply_chain.py) |
+| [CL-RT-09 — Industrial Cyber Range](https://github.com/CyberLegends/CyberLegends/blob/main/PROJECTS.md#cl-rt-09--industrial-cyber-range) | Manufacturing IT/OT segmentation and response exercises in simulation. | [Code](https://github.com/CyberLegends/CyberLegends/blob/main/industrial_cyber_range.py) |
+| [CL-RT-10 — GeoTrust Adversarial Lab](https://github.com/CyberLegends/CyberLegends/blob/main/PROJECTS.md#cl-rt-10--geotrust-adversarial-lab) | Geofence, telemetry and location-policy resilience testing. | [Code](https://github.com/CyberLegends/CyberLegends/blob/main/geotrust_lab.py) |
 
-[Explore all 10 detailed project specifications](https://github.com/CyberLegends/CyberLegends/blob/main/PROJECTS.md)
+[Explore all 10 detailed project specifications](https://github.com/CyberLegends/CyberLegends/blob/main/PROJECTS.md) · [Code & setup guide](https://github.com/CyberLegends/CyberLegends/blob/main/CODE_GUIDE.md) · [Regression tests](https://github.com/CyberLegends/CyberLegends/blob/main/test_projects.py)
 
 ## Project focus
 
@@ -71,7 +71,7 @@ Security testing is performed only against explicitly authorized assets within a
 | :--- | :--- |
 | [Security Bash Scripts](https://github.com/CyberLegends/Security-bash-scripts) | A community security-script collection forked from [fluproject/Security-bash-scripts](https://github.com/fluproject/Security-bash-scripts). Refer to the repository for source attribution and usage terms. |
 | [University Lecturer Demo Class](https://github.com/CyberLegends/university-lecturer-demo-class) | An existing TypeScript teaching-demo repository. |
-| [Cyber Legends Profile](https://github.com/CyberLegends/CyberLegends) | Our service overview and GitHub profile assets. |
+| [Cyber Legends Profile](https://github.com/CyberLegends/CyberLegends) | Our service overview, ten lab prototypes, project specifications and GitHub profile assets. |
 
 ## Start a conversation
 

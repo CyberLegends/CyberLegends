@@ -1,7 +1,7 @@
 ![Cyber Legends — Secure systems. Clear evidence. Trusted intelligence.](https://github.com/CyberLegends/CyberLegends/blob/main/assets/cyber-legends-banner.svg?raw=true)
 
 <p align="center"><strong>Cybersecurity · Digital Forensics · AI Solutions · AI Security</strong><br/>Advanced penetration testing and geofencing solutions for modern organizations.</p>
-<p align="center"><a href="https://cyberlegends.org">Explore Cyberlegends.org</a> · <a href="#services--solutions">Services &amp; solutions</a> · <a href="#red-teaming--ai-project-portfolio">10 projects &amp; code</a> · <a href="#public-projects--resources">Public resources</a> · <a href="#start-a-conversation">Work with us</a></p>
+<p align="center"><a href="https://cyberlegends.org">Explore Cyberlegends.org</a> · <a href="#services--solutions">Services &amp; solutions</a> · <a href="#featured-project--ransomware-early-warning-ai">Featured project</a> · <a href="#red-teaming--ai-project-portfolio">10 projects &amp; code</a> · <a href="#public-projects--resources">Public resources</a> · <a href="#start-a-conversation">Work with us</a></p>
 
 ---
 
@@ -21,6 +21,16 @@ We work across cybersecurity assessments, digital forensics projects, AI applica
 | **AI solutions & intelligent agents** | Retrieval-augmented generation (RAG), knowledge assistants, workflow automation, API integrations and agent-assisted security operations. | Scoped prototypes, evaluation criteria, integration documentation and human approval controls. |
 | **AI & LLM security** | Prompt-injection testing, sensitive-data exposure reviews, RAG access-control testing, agent tool-permission reviews and model abuse assessments. | Threat models, reproducible evaluation cases, risk findings and guardrail recommendations. |
 | **Geofencing & location-aware security** | Virtual boundary design, consent-based asset and fleet monitoring, entry/exit alerts, geospatial dashboards and location-aware policy integrations. | Geofence rules, event workflows, integration designs and privacy-aware retention controls. |
+
+## Featured project — Ransomware Early Warning AI
+
+[![Ransomware Early Warning AI by Cyber Legends](https://github.com/CyberLegends/ransomware-early-warning-ai/blob/main/images/banner.png?raw=true)](https://github.com/CyberLegends/ransomware-early-warning-ai)
+
+A defensive Python reference lab for ransomware precursor signals: nine evidence-linked rules, configurable host baselines, optional generative AI triage, a bounded investigation agent and human-reviewed response simulation. Includes synthetic datasets, JSON/HTML reports, architecture images and 55 passing offline regression tests.
+
+[View the project & source](https://github.com/CyberLegends/ransomware-early-warning-ai) · [Step-by-step implementation](https://github.com/CyberLegends/ransomware-early-warning-ai/blob/main/IMPLEMENTATION.md) · [Roman Urdu guide](https://github.com/CyberLegends/ransomware-early-warning-ai/blob/main/GUIDE_ROMAN_URDU.md)
+
+**Release scope:** Runnable batch-analysis lab; live Ollama inference and operational deployment remain to be validated. Scores are heuristic signals, not guaranteed attack prediction or prevention.
 
 ## Red teaming & AI project portfolio
 
@@ -71,6 +81,7 @@ Security testing is performed only against explicitly authorized assets within a
 | :--- | :--- |
 | [Security Bash Scripts](https://github.com/CyberLegends/Security-bash-scripts) | A community security-script collection forked from [fluproject/Security-bash-scripts](https://github.com/fluproject/Security-bash-scripts). Refer to the repository for source attribution and usage terms. |
 | [University Lecturer Demo Class](https://github.com/CyberLegends/university-lecturer-demo-class) | An existing TypeScript teaching-demo repository. |
+| [Ransomware Early Warning AI](https://github.com/CyberLegends/ransomware-early-warning-ai) | Telemetry correlation, bounded AI investigation, reviewed simulation and implementation guides. |
 | [Cyber Legends Profile](https://github.com/CyberLegends/CyberLegends) | Our service overview, ten lab prototypes, project specifications and GitHub profile assets. |
 
 ## Start a conversation
